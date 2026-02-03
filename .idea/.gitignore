@@ -1,10 +1,14 @@
-# Default ignored files
-/shelf/
-/workspace.xml
-# Ignored default folder with query files
-/queries/
-# Datasource local storage ignored files
-/dataSources/
-/dataSources.local.xml
-# Editor-based HTTP Client requests
-/httpRequests/
+# IDE/OS files
+.idea/
+*.iml
+.DS_Store
+Thumbs.db
+
+# Build artifacts and caches
+.gradle/
+**/build/
+local.properties
+*.apk
+*.aab
+*.log
+captures/

@@ -1,1 +1,14 @@
-/build
+# IDE/OS files
+.idea/
+*.iml
+.DS_Store
+Thumbs.db
+
+# Build artifacts and caches
+.gradle/
+**/build/
+local.properties
+*.apk
+*.aab
+*.log
+captures/

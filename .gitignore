@@ -1,15 +1,14 @@
+# IDE/OS files
+.idea/
 *.iml
-.gradle
-/local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
 .DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
+Thumbs.db
+
+# Build artifacts and caches
+.gradle/
+**/build/
 local.properties
+*.apk
+*.aab
+*.log
+captures/
